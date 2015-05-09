@@ -7,13 +7,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" type="text/css" href="main.css">
   <!-- Require jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script type="text/javascript" src="app.js"></script>
 </head>
 <body>
   <!-- HTML Body -->
   <h1>Tic Tac Toe</h1>
-  <img src="http://www.cs.utah.edu/~gk/atwork/img/hevequip2.gif" alt="under construction"></img>
+  
   <!-- Tic Tac Toe Board here -->
-  <!-- Reset button -->
+  <div id='board'>
+      <!-- the `&nbsp;` in each div is a non-breakable space.
+           It prevents the div from collapsing. -->
+      <div id="box0" class='box'>&nbsp;</div>
+      <div id="box1" class='box'>&nbsp;</div>
+      <div id="box2" class='box'>&nbsp;</div>
+      <div id="box3" class='box'>&nbsp;</div>
+      <div id="box4" class='box'>&nbsp;</div>
+      <div id="box5" class='box'>&nbsp;</div>
+      <div id="box6" class='box'>&nbsp;</div>
+      <div id="box7" class='box'>&nbsp;</div>
+      <div id="box8" class='box'>&nbsp;</div>
+    <!-- Reset button -->  
+      <button id="restart">Restart</button>
+    </div>
+  
 </body>
 </html>

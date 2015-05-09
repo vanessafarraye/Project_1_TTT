@@ -1,1 +1,62 @@
 /* Style Sheet */
+#board {
+  width: 31em;
+  height: 30em;
+  position: relative;
+  top: 30px;
+  left: 25%;
+}
+
+.box {
+  width: 160px;
+  height: 160px;
+  border: 1px solid fuchsia;
+  display: inline-block;
+  margin-bottom: 4px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.X {
+  background-color: rgb(157, 4, 157);
+  font-size: 100px;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  border: 1px double fuchsia;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.O {
+  background-color: rgb(231, 18, 227);
+  font-size: 100px;
+  color: white;
+  font-family: cursive;
+  text-align: center;
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  border: 1px double fuchsia;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+h1 {
+  font-family: cursive;
+  text-align: center;
+  color: purple;
+}
+
+#restart {
+  color: fuchsia;
+  border: 1px dotted fuchsia;
+  background-color: white;
+}
+
+body{
+	background-color: rgb(247, 205, 245);
+}
